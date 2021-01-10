@@ -8,8 +8,8 @@ __nhat ha__
 *Phone: ":smiling_face_with_three_hearts:"
 * [Discord](https://discord.gg/3AXYgvSTGU)
 *Member: 
-    * name1: `[nhatha](https://github.com/nhatha240)` back-end
-    * name2: `[nhatha](https://github.com/nhatha240)`
+  * name1: `[nhatha](https://github.com/nhatha240)` back-end
+  * name2: `[nhatha](https://github.com/nhatha240)`
 Project for Teach News.
 __Function__:
 1 CRUD News
@@ -27,5 +27,4 @@ __Frond-end__
 __Back end __
 1 __Lavarel__
 2 __ __
-
 Thank for reading. :heart_eyes:  :cupid: :cupid:
