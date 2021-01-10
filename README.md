@@ -7,7 +7,7 @@ __nhat ha__
 
 
 * Teamleader:  [nhatha](https://github.com/nhatha240)
-* Email: [nhathafanskt@gmail.com](email:nhathafanskt@gmail.com)
+* Email: [nhathafanskt@gmail.com](Email:nhathafanskt@gmail.com)
 * Phone: ":smiling_face_with_three_hearts:"
 * [Discord](https://discord.gg/3AXYgvSTGU)
 * Member:
