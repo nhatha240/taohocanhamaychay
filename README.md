@@ -3,11 +3,11 @@ __nhat ha__
 
 ## project name: **TeachNews**
 ### Contact
-*Teamleader:  `[nhatha](https://github.com/nhatha240)` 
-*Email:       `[nhathafanskt@gmail.com](email:nhathafanskt@gmail.com)`
-*Phone: ":smiling_face_with_three_hearts:"
+* Teamleader:  `[nhatha](https://github.com/nhatha240)`
+* Email:       `[nhathafanskt@gmail.com](email:nhathafanskt@gmail.com)`
+* Phone: ":smiling_face_with_three_hearts:"
 * [Discord](https://discord.gg/3AXYgvSTGU)
-*Member: 
+* Member:
   * name1: `[nhatha](https://github.com/nhatha240)` back-end
   * name2: `[nhatha](https://github.com/nhatha240)`
 Project for Teach News.
