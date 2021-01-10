@@ -7,12 +7,12 @@ __nhat ha__
 
 
 * Teamleader:  [nhatha](https://github.com/nhatha240)
-* Email:       [nhathafanskt@gmail.com](email:nhathafanskt@gmail.com)
+* Email: [nhathafanskt@gmail.com](email:nhathafanskt@gmail.com)
 * Phone: ":smiling_face_with_three_hearts:"
 * [Discord](https://discord.gg/3AXYgvSTGU)
 * Member:
-  * name1: `[nhatha](https://github.com/nhatha240)` back-end
-  * name2: `[nhatha](https://github.com/nhatha240)`
+  * name1: [nhatha](https://github.com/nhatha240) back-end
+  * name2: [nhatha](https://github.com/nhatha240)
 
 Project for Teach News.
 
