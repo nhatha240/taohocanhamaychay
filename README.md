@@ -15,7 +15,9 @@ __nhat ha__
   * name2: `[nhatha](https://github.com/nhatha240)`
 
 Project for Teach News.
+
 __Function__:
+
 1 CRUD News
 2 CRUD user
 3 login/logout
@@ -24,13 +26,16 @@ __Function__:
 6 ...
 
 ### using 
+
 __Frond-end__
+
 1 __Reactjs__
 2 Bootstrap 5
 3 Font-awesome
 4  
 
 __Back end __
+
 1 __Lavarel__
 2 __ __
 
