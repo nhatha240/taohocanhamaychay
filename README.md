@@ -34,10 +34,10 @@ __Frond-end__
 3 Font-awesome
 4  
 
-__Back end __
+**Back end**
 
 1 __Lavarel__
 
-2 __use2 __
+2 __use2__
 
 Thank for reading. :heart_eyes:  :cupid: :cupid:
