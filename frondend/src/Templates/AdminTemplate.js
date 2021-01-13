@@ -53,20 +53,20 @@ export const AdminTemplate = (props) => {
                 </Menu>
               </Sider>
               <Layout className="site-layout">
-                <Header
+                {/* <Header
                   className="site-layout-background"
                   style={{ padding: 0 }}
-                />
+                /> */}
                 <Content style={{ margin: "0 16px" }}>
-                  <Breadcrumb style={{ margin: "16px 0" }}>
+                  {/* <Breadcrumb style={{ margin: "16px 0" }}>
                     <Breadcrumb.Item>User</Breadcrumb.Item>
                     <Breadcrumb.Item>Bill</Breadcrumb.Item>
-                  </Breadcrumb>
+                  </Breadcrumb> */}
                   <div
                     className="site-layout-background"
                     style={{ padding: 24, minHeight: 360 }}
                   >
-                    Bill is a cat.
+                    <Component {...propsRoute}/>
                   </div>
                 </Content>
                 <Footer style={{ textAlign: "center" }}>

@@ -1,6 +1,6 @@
 import { Switch } from "react-router-dom";
 import "./App.scss";
-import Admin from "./Pages/AdminPages/Admin";
+import QuanLyNguoiDungAdmin from "./Pages/AdminPages/QuanLyNguoiDungAdmin";
 import HomePage from "./Pages/ClientPages/HomePage";
 import NewDetail from "./Pages/ClientPages/NewDetail/NewDetail";
 import { AdminTemplate } from "./Templates/AdminTemplate";
@@ -12,7 +12,7 @@ function App() {
       <MainTemplate exact path="/" Component={HomePage} />
       <MainTemplate exact path="/detail" Component={NewDetail} />
 
-      <AdminTemplate exact path="/admin" Component={Admin} />
+      <AdminTemplate exact path="/admin" Component={QuanLyNguoiDungAdmin} />
     </Switch>
   );
 }
