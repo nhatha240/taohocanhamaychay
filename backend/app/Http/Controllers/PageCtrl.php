@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Models\ProductsController;
 use Illuminate\Http\Request;
 
 class PageCtrl extends Controller
