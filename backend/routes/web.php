@@ -1,6 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PageCtrl;
+use App\Http\Controllers\PageCtrl; ####### dùng controler nào thì thêm vào
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +14,7 @@ use App\Http\Controllers\PageCtrl;
 */
 
 
-Route::get('/',  [PageCtrl::class, 'index']);
-
+// Route::get('/',  [PageCtrl::class, 'index']); ######### PageCtrl::class này là call class controller đã thêm vào index là tên function
+Route::get('/',  function () {
+    return view('welcome');
+});

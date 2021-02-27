@@ -22,7 +22,14 @@ class CustomerFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'user_name' => $this->faker->name,
+            'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi',
+            'email' => $this->faker->unique()->safeEmail,
+            'phone' => $this->faker->Str::random(10),
+            'fullname' => $this->faker->Str::random(20),
+            'address' => $this->faker->address,
+            'permission' => $this->faker->Str::random(1),
+            'birthday' => $this->faker->date,
         ];
     }
 }
