@@ -22,7 +22,7 @@ class SizeFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'size' => $this->faker->word,
         ];
     }
 }

@@ -8,7 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class comment extends Model
 {
     use HasFactory;
-    public function products(){
-        return $this->belongsTo(Products::class);
-    }
+    protected $guarded = ['id'];
+
+    protected $hidden=  [
+
+        'created_at',
+        'updated_at'
+    ];
+    // public function products(){
+    //     return $this->belongsTo(Products::class);
+    // }
 }

@@ -22,7 +22,7 @@ class BrandsFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'brands' => $this->faker->word,
         ];
     }
 }

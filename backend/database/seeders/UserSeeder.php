@@ -1,10 +1,10 @@
 <?php
 
 namespace Database\Seeders;
-
+use App\Models\User;
 use Illuminate\Database\Seeder;
 
-class MenusSeeder extends Seeder
+class UserSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,6 +13,6 @@ class MenusSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $users = User::factory()->count(30)->create();
     }
 }

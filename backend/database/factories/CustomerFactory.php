@@ -4,7 +4,6 @@ namespace Database\Factories;
 
 use App\Models\customer;
 use Illuminate\Database\Eloquent\Factories\Factory;
-
 class CustomerFactory extends Factory
 {
     /**
@@ -22,13 +21,13 @@ class CustomerFactory extends Factory
     public function definition()
     {
         return [
-            'user_name' => $this->faker->name,
-            'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi',
+            'user_name' => $this->faker->lastName,
+            'password' => $this->faker->bankAccountNumber,
             'email' => $this->faker->unique()->safeEmail,
-            'phone' => $this->faker->Str::random(10),
-            'fullname' => $this->faker->Str::random(20),
+            'phone' => $this->faker->e164PhoneNumber,
+            'fullname' => $this->faker->name,
             'address' => $this->faker->address,
-            'permission' => $this->faker->Str::random(1),
+            'permission' => $this->faker->randomElement(array (1, 0), 1),
             'birthday' => $this->faker->date,
         ];
     }

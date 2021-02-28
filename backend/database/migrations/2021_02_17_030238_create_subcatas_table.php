@@ -14,9 +14,9 @@ class CreateSubcatasTable extends Migration
     public function up()
     {
         Schema::create('subcatas', function (Blueprint $table) {
-            $table->id('idsubcata');
+            $table->id();
             $table->string('subcata_name');
-            $table->json('idcata');
+            $table->string('idcata');
             $table->timestamps();
         });
     }

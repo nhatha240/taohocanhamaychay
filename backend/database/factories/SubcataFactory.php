@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use App\Models\Subcata;
+// use App\Models\Categories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class SubcataFactory extends Factory
@@ -13,7 +14,6 @@ class SubcataFactory extends Factory
      * @var string
      */
     protected $model = Subcata::class;
-
     /**
      * Define the model's default state.
      *
@@ -22,7 +22,8 @@ class SubcataFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'subcata_name' => $this->faker->word,
+            'idcata' => $this->faker->numberBetween(1,20),
         ];
     }
 }

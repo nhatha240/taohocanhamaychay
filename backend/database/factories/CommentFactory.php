@@ -22,7 +22,9 @@ class CommentFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'id_pro' => $this->faker->numberBetween(0, 20),
+            'id_user' => $this->faker->numberBetween(0, 20),
+            'contend' => $this->faker->numberBetween(0, 20),
         ];
     }
 }

@@ -22,7 +22,7 @@ class SalesFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'size' => $this->faker->word,
         ];
     }
 }

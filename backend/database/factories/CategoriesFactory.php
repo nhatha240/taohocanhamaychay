@@ -22,7 +22,8 @@ class CategoriesFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'cata_name' => $this->faker->word,
+            'descata' => $this->faker->sentence($nbWords = 6, $variableNbWords = true)
         ];
     }
 }

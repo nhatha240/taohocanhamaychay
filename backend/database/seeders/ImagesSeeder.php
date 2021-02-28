@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\images;
 use Illuminate\Database\Seeder;
 
 class ImagesSeeder extends Seeder
@@ -13,6 +14,6 @@ class ImagesSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $Image = images::factory()->count(200)->create();
     }
 }

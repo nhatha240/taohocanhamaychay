@@ -14,7 +14,7 @@ class CreateSalesTable extends Migration
     public function up()
     {
         Schema::create('sales', function (Blueprint $table) {
-            $table->id('sales');
+            $table->id();
             $table->string('id_pro');
             $table->date('date_start');
             $table->date('date_end');

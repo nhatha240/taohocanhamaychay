@@ -1,7 +1,7 @@
 <?php
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageCtrl; ####### dùng controler nào thì thêm vào
-
+use App\Http\Controllers\CustomerController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,9 +12,20 @@ use App\Http\Controllers\PageCtrl; ####### dùng controler nào thì thêm va
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Route::get('/',  function () {
+//     return $;
+// });
 
-
-// Route::get('/',  [PageCtrl::class, 'index']); ######### PageCtrl::class này là call class controller đã thêm vào index là tên function
+// Route::get('/',  [PageCtrl::class, 'index']);
+Route::get('/cus/all',  [CustomerController::class, 'index']);
+Route::get('/cus/{id}',  [CustomerController::class, 'show']);
 Route::get('/',  function () {
-    return view('welcome');
-});
+        return view('signup');
+    } ) ;
+Route::post('cus/add',  [CustomerController::class, 'store'])->name('user.add');
+Route::put('/cus/{id}',  [CustomerController::class, 'update']);
+Route::delete('/cus/{id}',  [CustomerController::class, 'delete']);
+// Route::delete('/cus/{id}',  [CustomerController::class, 'sortdelete']);
+
+
+

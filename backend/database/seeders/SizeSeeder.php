@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\Size;
 
 class SizeSeeder extends Seeder
 {
@@ -13,6 +14,6 @@ class SizeSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $uSize = Size::factory()->count(30)->create();
     }
 }
